@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aman Raj Ghusar | Python Developer</title>
+
+    <meta name="description"
+        content="Aman Raj Ghusar - MCA Student and Python Backend Developer. Explore my skills, projects, education and professional profiles.">
+
+    <meta name="author" content="Aman Raj Ghusar">
+
+    <!-- Google / Search identity -->
+    <link rel="canonical" href="https://amanrajghusar01.github.io/">
+
+    <!-- Person structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Aman Raj Ghusar",
+      "url": "https://amanrajghusar01.github.io/",
+      "jobTitle": "Python Developer",
+      "description": "MCA Student and Python Backend Developer",
+      "sameAs": [
+        "https://www.linkedin.com/in/aman-raj-ghusar-9b9759432",
+        "https://www.instagram.com/im_amanraajz_5?igsi=MWZmNGl2ZmxiNWRleg==",
+        "YOUR_FACEBOOK_LINK",
+        "https://github.com/amanrajghusar01"
+      ]
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0b1120;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(11, 17, 32, 0.95);
+            border-bottom: 1px solid #243047;
+            padding: 16px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin-left: 22px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero-content {
+            max-width: 850px;
+        }
+
+        .profile-photo {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #334155;
+            margin-bottom: 25px;
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 7vw, 72px);
+            margin-bottom: 12px;
+        }
+
+        .hero h2 {
+            font-size: clamp(20px, 4vw, 30px);
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 13px 24px;
+            margin: 7px;
+            border: 1px solid #475569;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            background: #172033;
+        }
+
+        .btn:hover {
+            background: #26344d;
+        }
+
+        section {
+            max-width: 1050px;
+            margin: auto;
+            padding: 80px 25px;
+        }
+
+        section h2 {
+            font-size: 34px;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: #111a2e;
+            border: 1px solid #26344d;
+            border-radius: 12px;
+            padding: 24px;
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #94a3b8;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #172033;
+            border: 1px solid #334155;
+            padding: 10px 16px;
+            border-radius: 20px;
+        }
+
+        .socials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px 20px;
+            border-top: 1px solid #243047;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+            .hero {
+                min-height: 80vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Aman Raj Ghusar</div>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <!-- PHOTO WILL BE ADDED LATER -->
+            <img
+                src="profile.jpg"
+                alt="Aman Raj Ghusar - Python Developer"
+                class="profile-photo"
+            >
+
+            <h1>Aman Raj Ghusar</h1>
+
+            <h2>Python Developer | Backend Developer | MCA Student</h2>
+
+            <p>
+                Welcome to my personal website. I am passionate about
+                Python, backend development and building useful software
+                applications.
+            </p>
+
+            <div class="buttons">
+                <a class="btn" href="#projects">View Projects</a>
+
+                <a class="btn"
+                   href="YOUR_LINKEDIN_LINK"
+                   target="_blank">
+                    LinkedIn
+                </a>
+
+                <a class="btn"
+                   href="https://github.com/amanrajghusar01"
+                   target="_blank">
+                    GitHub
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am Aman Raj Ghusar, an MCA student interested in Python
+            backend development. I am learning and working with Python,
+            Django, SQL and REST APIs, with a focus on developing
+            practical and real-world applications.
+        </p>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+            <span class="skill">Python</span>
+            <span class="skill">Django</span>
+            <span class="skill">SQL</span>
+            <span class="skill">REST APIs</span>
+            <span class="skill">Git</span>
+            <span class="skill">GitHub</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>MCA</h3>
+                <p>
+                    Master of Computer Applications
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>BCA</h3>
+                <p>
+                    Bachelor of Computer Applications
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Python Projects</h3>
+                <p>
+                    Python-based applications and programming projects.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Backend Development</h3>
+                <p>
+                    Backend applications using Python, Django and APIs.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>More Projects Coming Soon</h3>
+                <p>
+                    I am continuously learning and building new projects.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOCIAL -->
+    <section id="contact">
+
+        <h2>Connect With Me</h2>
+
+        <div class="socials">
+
+            <a class="btn"
+               href="https://www.linkedin.com/in/aman-raj-ghusar-9b9759432"
+               target="_blank">
+                LinkedIn
+            </a>
+
+            <a class="btn"
+               href="https://github.com/amanrajghusar01"
+               target="_blank">
+                GitHub
+            </a>
+
+            <a class="btn"
+               href="https://www.instagram.com/im_amanraajz_5?igsi=MWZmNGl2ZmxiNWRleg=="
+               target="_blank">
+                Instagram
+            </a>
+
+            <a class="btn"
+               href="YOUR_FACEBOOK_LINK"
+               target="_blank">
+                Facebook
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        © 2026 Aman Raj Ghusar. All Rights Reserved.
+
+    </footer>
+
+</body>
+</html>
